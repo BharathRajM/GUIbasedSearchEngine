@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Desktop/BHARATH/Softwares/jsoup-1.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/ProjectRailway/ProjectRailway/src/h2-1.4.191.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/cmudict04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/cmulex.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/en_us.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/freetts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ishu/Documents/EXAMPLE/voice/jar/mbrola.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

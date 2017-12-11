@@ -1,0 +1,23 @@
+1)by default all sign ups have role=USER
+2)Admin username:admin pwd:admin
+
+GUI-user(last 5 searches and popular searches())
+
+Enter key
+
+1) user clicked (result) >>>> link count^               ----- LINKCOUNT +CLICKS
+2) keywords---top 3-5 links			--refer to this foor search results-------___P(SEARCHKEY) - 3-5
+3) popular searchkeys- (SerachHistory +count) ---
+4) DID you mean "searchkey"? 		--- search term doesnt match ref2 
+5) feedback : username-searchkey-feedback	
+6) search history between t1 and t2		admin+
+7)  previous searches by a user
+
+DROP ALIAS IF EXISTS CLICKFUNCTION;
+CREATE ALIAS CLICKFUNCTION AS $$
+String updateLinkCountClick(java.sql.Connection con,String url) throws Exception {
+    con.prepareStatement(" UPDATE LINKCOUNT SET CLICKS=CLICKS+1 WHERE LINK='"+url+"').executeUpdate();
+    return "Stored procedure to update the link count executed";
+}
+$$;
+INSERT INTO SEARCHHISTORY VALUES (NULL,'"+searchkey+"','"+resultFound+"',"+noOfResults+",'"+username+"','"+datetime+"')" 
