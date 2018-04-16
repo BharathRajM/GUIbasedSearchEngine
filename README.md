@@ -20,3 +20,7 @@ Once the user signs in, he/she can give a search key to view the indexed sites. 
 The user's window:
 
 ![alt text](https://raw.githubusercontent.com/BharathRajM/GUIbasedSearchEngine/master/SearchKey.png)
+
+The users can give feedbacks and the admin can view them when he/she logs in.
+
+This sums up my project! :D :)
