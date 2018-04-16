@@ -13,3 +13,10 @@ Once the admin signs in, he/she can give a URL to start the crawler. The admin i
 The admin's window:
 
 ![alt text](https://raw.githubusercontent.com/BharathRajM/GUIbasedSearchEngine/master/Admin.png)
+
+
+Once the user signs in, he/she can give a search key to view the indexed sites. The user can also click the "Read" button and get a voice output for the search results. 
+
+The user's window:
+
+![alt text](https://raw.githubusercontent.com/BharathRajM/GUIbasedSearchEngine/master/SearchKey.png)
